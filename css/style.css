@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+/* Global */
+.container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Header */
+header {
+    background: #395889;
+    color: white;
+    padding-top: 20px;
+    min-height: 40px;
+    border-bottom: black 3px solid;
+}
+
+header a {
+    color: white; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .nav-bar {
+    float: left;
+}
+
+header .nav-bar h1 {
+    margin: 0;
+}
+
+header .highlight, header .current a {
+    
+    padding-bottom: 2px;
+    border-bottom: grey 1px solid;
+
+}
+
+header a:hover {
+    color: #4b8dc6;
+}
+
+/* Profile */
+.profile {
+    min-height: 400px;
+    background: url("../img/background.png") no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    border: white 2px solid;
+    border-radius: 100%;
+}
+
+.profile .name {
+    color: white;
+}
+
+.profile a {
+    color: white;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    color: #4b8dc6;
+}
+
+.profile .bio {
+    font-size: 1.2em;
+}
+
+.name {
+    text-align: center;
+}
+
+.email {
+    color: #99c0ff;
+    font-style: italic;
+}
+
+.profile li {
+    padding: 0 10px 0 10px;
+    display: inline;
+}
+
+/* Projects */
+.project {
+    padding-bottom: 20px;
+}
+.project a{
+    color: #395889;
+}
+
+.project a:hover {
+    color: #4b8dc6;
+}
+
+/* Resume */
+.pdf-area {
+    height: 600px;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #395889;
+    color: white;
+}
+
+
